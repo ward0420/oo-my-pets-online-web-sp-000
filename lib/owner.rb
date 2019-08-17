@@ -67,7 +67,8 @@ class Owner
     pets.each do |o|
       o.mood = "nervous"
       o.owner = nil
-      
+      cats.shift
+      dogs.shift
     end
   end
   
